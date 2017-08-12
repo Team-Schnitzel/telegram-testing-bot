@@ -2,8 +2,9 @@ import urllib
 import json 
 import requests
 import time
+import sys
 
-TOKEN = "398662319:AAFJm1Dkqzge4SZkE4-xBZkRFaYDePewUTI"
+TOKEN = sys.argv[1]
 URL = "https://api.telegram.org/bot{}/".format(TOKEN)
 
 
